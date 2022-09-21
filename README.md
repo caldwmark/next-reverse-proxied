@@ -39,6 +39,17 @@ next could be python, or whatever...  if you rename the next container name in d
 
 [ssl-proxy](https://github.com/suyashkumar/ssl-proxy) is a binany generated from go code.  it's a handy little tool for handling ssl.  more info on it's usage can be found on [its github page](https://github.com/suyashkumar/ssl-proxy).
 
+## startup
+
+once you are satisfied with your settings, you can start it by going back into the project folder.  the one holding docker-compose.yml and entering the following command<br />
+`docker compose up -d --build`
+
+to see if they all started
+`docker ps`
+should show the three containers
+
+view the logs
+`docker compose logs`
 
 
 
