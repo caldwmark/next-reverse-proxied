@@ -44,11 +44,11 @@ next could be python, or whatever...  if you rename the next container name in d
 once you are satisfied with your settings, you can start it by going back into the project folder.  the one holding docker-compose.yml and entering the following command<br />
 `docker compose up -d --build`
 
-to see if they all started
-`docker ps`
+to see if they all started<br />
+`docker ps`<br />
 should show the three containers
 
-view the logs
+view the logs<br />
 `docker compose logs`
 
 
